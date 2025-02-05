@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*Header start*/
+header{
+    width: auto;
+    height: auto;
+    padding: 10px 0;
+    border-bottom: 2px solid   rgb(88, 108, 124);
+}
+.container{
+    width: 90%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 7%;
+    /*border: 1px solid green;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 45%;
+    /*border: 1px solid grey;*/
+    float: right;
+    padding: 7px 0;
+    margin-top: 3px;
+}
+.menu ul{
+    /*overflow: hidden;*/
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 0 20px ;
+    display: inline-block;
+    /*font-family: sans-serif;*/
+    font-size: 18px;
+    font-weight: 400;
+    color:  rgb(88, 108, 124);
+    letter-spacing: 1px;
+    line-height: 20px;
+    word-spacing: 10px;
+}
+.menu ul li a:last-child {
+     margin-right: 0;
+}
+.menu ul li a:hover{
+    color: black;
+}
+/*Header end*/
+
+/*Banner start*/
+banner{
+   
+}
+.container2  {
+    width: 55%;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+}
+.b_content{
+    width: 100%;
+    text-align: center;
+    
+}
+.b_content h1{
+    /*font-family: sans-serif;*/
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(15, 38, 86);
+}
+.b_content h2{
+   /* font-family: sans-serif;*/
+    font-size: 40px;
+    font-weight: 700;
+    color:rgb(0, 138, 255) ;
+}
+.b_content p{
+    /*font-family: sans-serif;*/
+    font-size: 17px;
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+    color:   rgb(88, 108, 124);
+}
+.b_image{
+    width: 60%;
+    margin: 0 auto;
+}
+.b_image img{
+    width: 100%;
+    margin: 20px 0;
+}
+
+/*Banner end*/
+
+/*Section start*/
+.successful{
+   padding: 60px 0;
+}
+.container2{
+
+}
+.s_content{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.s_left{
+    float: left;
+    width: 40%;
+    /*border: 1px solid red;*/
+    text-align: right;
+    padding: 0 10px 0 25px;
+}
+.s_left h2{
+    
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(241, 87, 103);
+    margin:0 0 10px;
+
+}
+.s_left p{
+
+    
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgb(88, 108, 124);
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 1px;
+    
+}
+.s_right{
+    float: right;
+    width: 50%;
+    /*border: 1px solid green;*/
+    padding: 0 25px 0 10px;
+   
+}
+.s_right h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:  rgb(15, 38, 86) ;
+    line-height: 60px;
+    margin: 0;
+    
+}
+/*Section end*/
+
+/*Feature start*/
+.feature{
+    overflow: hidden;
+}
+.container{
+
+}
+.f_content{
+    
+}
+.f_single{
+    padding: 30px 28px 45px;
+    width: 27%;
+   /* border: 1px solid*/
+    /*font-family: sans-serif;*/
+    color: #2656;
+    float: left;
+    margin-right: 29px;
+}
+.f_single:last-child{
+    margin-right: 0;
+}
+.pink{
+    background-color: rgb(253, 235, 237);
+}
+.blue{
+    background-color: rgb(235, 249, 244);
+}
+.red{
+    background-color: rgb(255, 247, 232);
+}
+.f_img{
+    
+}
+.f_img img{
+    width: 100%;
+ 
+}
+.f_content h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.f_content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+/*Feature end*/
+
+/*Footer start*/
+footer{
+    width: 100%;
+    
+    /*border: 1px solid;*/
+    background-color: rgb(0, 138, 255);
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    /*font-family: sans-serif;*/
+    letter-spacing: 1px;
+    padding: 5px 0;
+}
+.paragraph p{
+    font-size: 14px;
+}
+.paragraph h5{
+    font-size: 18px;
+}
+
+/*Footer end*/
